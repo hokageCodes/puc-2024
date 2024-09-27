@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image"; // Use Next.js Image for optimization and lazy loading
+import Image from "next/image";
 
 const slideInVariants = {
   hidden: { opacity: 0, y: 20 },
